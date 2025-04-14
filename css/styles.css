@@ -225,6 +225,13 @@ box-shadow: none;
     color:#fff;
     text-transform: uppercase;
 }
+.project-details:hover{
+    background-color: #c39bd3;
+   
+}
+.project-details a:hover{
+    color: #0c0c0c;
+}
 
 .project-details-content{
 display: flex;
@@ -423,5 +430,7 @@ align-items: center;
         .form{
             width: 80vw;
         }
-        
+        .project-details-content .project-details a{
+            font-size: .7rem;
+        }
     }
